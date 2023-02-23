@@ -1,0 +1,282 @@
+@import '../../assets/styles/variables.scss';
+@import '../../assets/styles/mixins/mixins.scss';
+
+
+.detail-movie {
+    background-color: $black;
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width:992px) {
+            padding: $xxl $xxl;
+
+        }
+
+        .container-movie {
+            padding-top: $xxxl;
+
+            @media (min-width:992px) {
+                display: flex;
+                flex-direction: row;
+                // max-width: 1140px;
+            }
+
+            .content-movie {
+
+
+                li {
+                    padding-bottom: 72px;
+
+                    @media (min-width:992px) {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .section-detail-movie {
+                        width: 100%;
+                        padding-bottom: $l;
+
+                        @media (min-width:992px) {
+                            width: 36%;
+                            margin: 0;
+                        }
+
+                        h2 {
+                            display: flex;
+                            font-size: 1.8rem;
+                            padding: 0 0 $s 0;
+                            color: $grey-medium;
+
+                        }
+
+                        figure {
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .section-2-data-detail {
+                        width: 100%;
+
+                        @media (min-width:992px) {
+                            width: 55%;
+                            padding-top: $xxxl;
+                        }
+
+                        h3 {
+                            color: $white;
+                        }
+
+                        h4 {
+                            color: $grey-text-card;
+                            font-size: 1.2rem;
+                        }
+
+                        .star {
+                            color: $orange-rating;
+                        }
+
+                        .sinopsis {
+                            padding: $l 0 $m 0;
+                            margin: 0;
+                            color: $white-medium;
+                            font-weight: 400;
+                            line-height: 158%;
+
+                        }
+
+                        .buttoms-detail {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+                            padding-top: $m;
+
+                            a {
+                                width: 45%;
+                            }
+
+                            .button-primary,
+                            .button-secundary {
+                                @include button-base;
+                            }
+
+                            .button-primary {
+                                background-color: $primary;
+                                border: none;
+                                color: $black;
+                                //   animación  
+                                transform: scale(1);
+                                transition: transform .4s ease-in-out;
+
+                                &:hover {
+                                    transform: scale(1.05);
+                                    z-index: 2;
+                                }
+
+                            }
+
+                            .button-secundary {
+                                background-color: $black;
+                                border: 1px solid $primary;
+                                color: $primary;
+
+                                //   animación  
+                                transform: scale(1);
+                                transition: transform .4s ease-in-out;
+
+                                &:hover {
+                                    transform: scale(1.05);
+                                    z-index: 2;
+                                }
+                            }
+
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+// estilos para las series
+
+.detail-serie {
+    background-color: $black;
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        @media (min-width:992px) {
+            padding: $xxl $xxl;
+
+        }
+
+        .container-serie {
+            padding-top: $xxl;
+
+            @media (min-width:992px) {}
+
+            .content-serie {
+
+
+                li {
+                    margin-bottom: 64px;
+
+                    @media (min-width:992px) {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+
+                    .section-detail-serie {
+                        width: 100%;
+                        margin-bottom: $l;
+
+                        @media (min-width:992px) {
+                            width: 45%;
+                        }
+
+                        h2 {
+                            display: flex;
+                            font-size: 1.8rem;
+                            margin: 0 0 $s 0;
+                            color: $grey-medium;
+
+                        }
+
+                        figure {
+
+                            img {
+                                width: 100%;
+                            }
+                        }
+                    }
+
+                    .section-2-data-detail {
+                        width: 100%;
+
+                        @media (min-width:992px) {
+                            width: 45%;
+                            padding-top: $xxl;
+                        }
+
+                        h3 {
+                            color: $white;
+                        }
+
+                        h4 {
+                            color: $grey-text-card;
+                            font-size: 1.2rem;
+                        }
+
+                        .star {
+                            color: $orange-rating;
+                        }
+
+                        .sinopsis {
+                            padding: $s 0 $m 0;
+                            margin: 0;
+                            color: $white;
+                        }
+
+                        .buttoms-detail {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-between;
+
+                            a {
+                                width: 45%;
+                            }
+
+                            .button-primary,
+                            .button-secundary {
+                                @include button-base;
+                            }
+
+                            .button-primary {
+                                background-color: $primary;
+                                border: none;
+                                color: $black;
+
+                                //   animación  
+                                transform: scale(1);
+                                transition: transform .4s ease-in-out;
+
+                                &:hover {
+                                    transform: scale(1.05);
+                                    z-index: 2;
+                                }
+
+                            }
+
+                            .button-secundary {
+                                background-color: $black;
+                                border: 1px solid $primary;
+                                color: $primary;
+
+                                //   animación  
+                                transform: scale(1);
+                                transition: transform .4s ease-in-out;
+
+                                &:hover {
+                                    transform: scale(1.05);
+                                    z-index: 2;
+                                }
+                            }
+
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

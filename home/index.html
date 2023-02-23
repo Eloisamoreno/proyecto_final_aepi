@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <!-- link tipografias google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+  <!-- mi hoja de estilos, predomina sobre bootstrap -->
+  <link rel="stylesheet" href="../assets/styles/style.css">
+    <link rel="stylesheet" href="../home/styles/style.css">
+</head>
+
+
+<body class="home page">
+  <header>
+
+    <nav class="navbar fixed-top navbar-expand-lg">
+      <div class="container-fluid">
+         <a href="../home/index.html"><img src="../assets/img/logo/logo_negative.svg" class="me-3" alt=""></a>
+
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <li class="nav-item pt-2 ms-2">
+              <a class="nav-link text-white" href="../genres/genres/genres.html">Géneros</a>
+            </li>
+            <li class="nav-item pt-2 ms-2">
+              <a class="nav-link text-white" href="../favorite/favorite.html">Favoritos</a>
+            </li>
+          </ul>
+
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <a class="btn btn-outline-success border border-light text-white" href="../search/search-results.html">
+            Buscar
+          </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    
+
+  </header>
+
+
+  <main class="container">
+    <section class="section-1">
+      <h1>
+        CONTENIDO NUEVO CADA SEMANA
+      </h1>
+
+      <article>
+        <h3>
+          Próximos estrenos
+        </h3>
+        
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <a href="../detail/detail-serie.html#scf1">
+              <img src="../assets/img/estrenos/altered_carbon_slide.jpg" class="d-block w-100" alt="...">
+            </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Ciencia ficción</h5>
+                <p>Fecha de estreno: 28 de Febrero 2023</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <a href="../detail/detail-movie.html#pc1">
+              <img src="../assets/img/estrenos/vida_padre_slide.jpg" class="d-block w-100" alt="...">
+              </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Comedia</h5>
+                <p>Fecha de estreno: 5 de Marzo 2023</p>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <a href="../detail/detail-movie.html#pt1">
+              <img src="../assets/img/estrenos/dont_breathe_slide.jpg" class="d-block w-100" alt="...">
+            </a>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Terror</h5>
+                <p>Fecha de estreno: 8 de Marzo 2023</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </article>
+    </section>
+
+
+    <!-- segunda listado peliculas más vistas-->
+    <section class="section-2">
+      <h3>Películas más vistas</h3>
+
+      <ul class="content">
+        <li>
+          <a href="../detail/detail-movie.html#pt3" class="card-film">
+            <figure>
+              <img src="../assets/img/peliculas/terror/haunt.jpg" alt="">
+            </figure>
+            <div class="data-card-film">
+              <h4 class="title-card-film">HAUNT</h4>
+              <p> 5.01.2023 </p>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="../detail/detail-movie.html#pr1" class="card-film">
+            <figure>
+              <img src="../assets/img/peliculas/romanticas/amor_en_su_punto.jpg" alt="">
+            </figure>
+            <div class="data-card-film">
+              <h4 class="title-card-film">AMOR EN SU PUNTO</h4>
+              <p> 17.01.2023 </p>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="../detail/detail-movie.html#pcla1" class="card-film">
+            <figure>
+              <img src="../assets/img/peliculas/clasicos/tiburon.jpg" alt="">
+            </figure>
+            <div class="data-card-film">
+              <h4 class="title-card-film">TIBURON</h4>
+              <p> 22.01.2023 </p>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="../detail/detail-movie.html#pcla2" class="card-film">
+            <figure>
+              <img src="../assets/img/peliculas/clasicos/grease.jpg" alt="">
+            </figure>
+            <div class="data-card-film">
+              <h4 class="title-card-film"> GREASE</h4>
+              <p>10.01.2023 </p>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a href="../detail/detail-movie.html#pc2" class="card-film">
+            <figure>
+              <img src="../assets/img/peliculas/comedia/mama_o_papa.jpg" alt="">
+            </figure>
+            <div class="data-card-film">
+              <h4 class="title-card-film">MAMÁ O PAPÁ</h4>
+              <p> 17.01.2023 </p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+
+    <!-- tercer listado series mejor valoradas-->
+    <section class="section-3 container">
+      <h3>
+        Series mejor valoradas
+      </h3>
+
+      <ul class="content">
+        <li>
+      <a href="../detail/detail-serie.html#scf2" class="card-serie">
+        <figure>
+          <img src="../assets/img/series/ciencia_ficcion/stranger_things.jpg" alt="">
+        </figure>
+        <div class="data-card-serie">
+          <div class="content-data">
+            <h4 class="title-card-serie">STRANGER THINGS</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <p>12.03.2022</p>
+        </div>
+      </a>
+    </li>
+
+      <li>
+      <a href="../detail/detail-serie.html#sa1" class="card-serie">
+        <figure>
+          <img src="../assets/img/series/aventuras/materia_oscura.jpg" alt="">
+        </figure>
+        <div class="data-card-serie">
+          <div class="content-data">
+            <h4 class="title-card-serie">MATERIA OSCURA</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <p>25.05.2022</p>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="../detail/detail-serie.html#sd1" class="card-serie">
+        <figure>
+          <img src="../assets/img/series/documental/nevenka.jpg" alt="">
+        </figure>
+        <div class="data-card-serie">
+          <div class="content-data">
+            <h4 class="title-card-serie">NEVENKA</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+          </div>
+          <p>7.05.2022</p>
+        </div>
+      </a>
+    </li>
+
+    <li>
+      <a href="../detail/detail-serie.html#st1" class="card-serie">
+        <figure>
+          <img src="../assets/img/series/terror-serie/dark.jpg" alt="">
+        </figure>
+        <div class="data-card-serie">
+          <div class="content-data">
+            <h4 class="title-card-serie">DARK</h4>
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+          <p>5.08.2022</p>
+        </div>
+      </a>
+    </li>
+    </ul>
+
+
+
+    </section>
+
+  </main>
+
+  <footer>
+    <section class="data-footer">
+      <p>ELOÍSA MORENO FLORES</p>
+      <article class="icon-footer">
+        <a href="https://www.linkedin.com/in/eloisamorenoflores/" target="blanket"><i
+            class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/el0isa" target="blanket"><i class="fa-brands fa-square-instagram"></i></a>
+      </article>
+    </section>
+
+  </footer>
+
+
+
+
+  <!-- bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

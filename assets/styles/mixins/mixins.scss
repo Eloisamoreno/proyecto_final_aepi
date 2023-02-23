@@ -1,0 +1,21 @@
+@mixin section{
+    display: grid;
+    grid-template-rows: 80px 1fr;
+    padding: 0;
+}
+
+
+
+
+@mixin button-base {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: $s;
+    height: $xxl;
+    i {
+        padding-right: $s;
+    }
+}
+

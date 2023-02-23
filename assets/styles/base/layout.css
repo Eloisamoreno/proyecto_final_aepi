@@ -1,0 +1,48 @@
+.page {
+  display: grid;
+  grid-template-rows: 64px 1fr 96px;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+header .navbar {
+  background-color: #ff0000;
+}
+header .navbar button.navbar-toggler {
+  border-color: #fff;
+}
+header .navbar button.navbar-toggler .navbar-toggler-icon {
+  color: #ffffff;
+  filter: invert(1);
+}
+header .btn:hover {
+  background-color: #c60001 !important;
+  border-color: #ffffff !important;
+}
+header img {
+  width: 132px;
+  padding-left: 4px;
+}
+
+footer {
+  display: block;
+  background-color: #535353;
+}
+footer .data-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+footer .data-footer p {
+  color: #ffffff;
+  padding-right: 24px;
+  margin: 0;
+}
+footer .data-footer .icon-footer a {
+  color: #ffffff;
+  padding-right: 8px;
+}
+footer .data-footer .icon-footer a i {
+  font-size: 2rem;
+}/*# sourceMappingURL=layout.css.map */

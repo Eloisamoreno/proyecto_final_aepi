@@ -1,0 +1,69 @@
+@import '../variables.scss';
+
+.page{
+    display: grid;
+    grid-template-rows: 64px 1fr 96px;
+    font-family: $font-family-base;
+}
+
+
+
+header {
+
+    .navbar {
+        background-color: $primary;
+        
+
+        button.navbar-toggler {
+            border-color: #fff;
+            
+
+            .navbar-toggler-icon {
+                color: $white;
+                filter: invert(1);
+            }
+        }
+    }
+    .btn:hover {
+        background-color: #c60001!important;
+        border-color: #ffffff !important;
+    }
+    img{
+        width: 132px;
+        padding-left: $xs;
+    }
+   
+}
+
+
+footer {
+    display: block;
+    background-color:$grey-dark;
+
+    .data-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+
+        p {
+            color: $white;
+            padding-right: $l;
+            margin: 0;
+        }
+
+        .icon-footer {
+
+            a {
+                color: $white;
+                padding-right: $s;
+
+                i {
+                    font-size: 2rem;
+                }
+            }
+        }
+
+    }
+}

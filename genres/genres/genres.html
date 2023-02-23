@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Genres</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- link tipografias google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <!-- mi hoja de estilos, predomina sobre bootstrap -->
+    <link rel="stylesheet" href="../../assets/styles/style.css">
+    <link rel="stylesheet" href="../../genres/genres/styles/style.css">
+</head>
+
+
+
+<body class="genres page">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+               <a href="../../home/index.html"><img src="../../assets/img/logo/logo_negative.svg" class="me-3" alt=""></a>
+      
+              <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+      
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        
+                    <li class="nav-item pt-2 ms-2">
+                        <a class="nav-link text-white" href="../../genres/genres/genres.html">Géneros</a>
+                    </li>
+                    <li class="nav-item pt-2 ms-2">
+                        <a class="nav-link text-white" href="../../favorite/favorite.html">Favoritos</a>
+                    </li>
+                </ul>
+      
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <a class="btn btn-outline-success border border-light text-white" href="../../search/search-results.html">
+                  Buscar
+                </a>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+
+    <main class="container">
+        <h1>TODOS LOS GÉNEROS </h1>
+        
+        <section class="category">           
+            <!-- <h3>Generos de películas</h3> -->
+            
+            <article>
+                <h3>Generos de películas</h3>
+                <div class="container-category">
+                <a class="content-category" href="../../genres/detail-genres/detail-genres.html#terror-movie">
+                    <figure>
+                        <img src="../../assets/icons/genres/icon_terror.svg" alt="">
+                    </figure>
+                    <p>TERROR</p>
+                </a>
+
+                <a class="content-category" href="../../genres/detail-genres/detail-genres.html#comedy-movie">
+                    <figure>
+                        <img src="../../assets/icons/genres/icon_comedy.svg" alt="">
+                    </figure>
+                    <p>COMEDIA</p>
+                </a>
+            </div>
+            
+            <div class="container-category">
+                <a class="content-category" href="../../genres/detail-genres/detail-genres.html#classic-movie">
+                    <figure>
+                        <img src="../../assets/icons/genres/icon_classic.svg" alt="">
+                    </figure>
+                    <p>CLÁSICOS</p>
+                </a>
+
+                <a class="content-category" href="../../genres/detail-genres/detail-genres.html#romantic-movie">
+                    <figure>
+                        <img src="../../assets/icons/genres/icon_romanticism.svg" alt="">
+                    </figure>
+                    <p>ROMANTICAS</p>
+                </a>
+            </div>
+            </article>            
+      
+
+
+        <!-- géneros de series -->
+        
+            <article>
+                <h3>Géneros de series</h3>
+                <div class="container-category">
+                <a href="../../genres/detail-genres/detail-genres.html#adventure-serie" class="content-category">
+                    <figure>
+                        <img src="../../assets/icons/genres/icon_adventure.svg" alt="">
+                    </figure>
+                    <p>AVENTURAS</p>
+                </a>
+
+                <a href="../../genres/detail-genres/detail-genres.html#documental-serie" class="content-category">
+                    <figure>
+                        <img src="../../assets/icons/genres/icon_documentary.svg" alt="">
+                    </figure>
+                    <p>DOCUMENTAL</p>
+                </a>
+            </div>
+            
+            <div class="container-category">
+                <a href="../../genres/detail-genres/detail-genres.html#sciencie-ficction-serie" class="content-category">
+                    <figure>
+                        <img src="../../assets/icons/genres/icon_science_fiction.svg" alt="">
+                    </figure>
+                    <p>CIENCIA FICCIÓN</p>
+                </a>
+
+                <a href="../../genres/detail-genres/detail-genres.html#terror-serie" class="content-category">
+                    <figure>
+                        <img src="../../assets/icons/genres/icon_terror.svg" alt="">
+                    </figure>
+                    <p>TERROR</p>
+                </a>
+            </div>
+            </article>  
+        </section>
+
+
+    </main>
+
+    <footer>
+        <section class="data-footer">
+            <p>ELOÍSA MORENO FLORES</p>
+            <article class="icon-footer">
+                <a href="https://www.linkedin.com/in/eloisamorenoflores/" target="blanket"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/el0isa" target="blanket"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </article>
+        </section>
+
+    </footer>
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

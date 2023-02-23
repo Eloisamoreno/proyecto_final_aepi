@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail genres</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- link tipografias google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <!-- mi hoja de estilos, predomina sobre bootstrap -->
+    <link rel="stylesheet" href="../../assets/styles/style.css">
+    <link rel="stylesheet" href="../../genres/detail-genres/styles/style.css">
+</head>
+
+
+<body class="detail-genres page">
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg">
+            <div class="container-fluid">
+
+                <a href="../../home/index.html"><img src="../../assets/img/logo/logo_negative.svg" class="me-3" alt=""></a>
+
+
+                <button class="navbar-toggler " type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse "id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item pt-2 ms-2">
+                            <a class="nav-link text-white" href="../../genres/genres/genres.html">Géneros</a>
+                        </li>
+                        <li class="nav-item pt-2 ms-2">
+                            <a class="nav-link text-white" href="../../favorite/favorite.html">Favoritos</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <a class="btn btn-outline-success border border-light text-white" href="../../search/search-results.html">
+                            Buscar
+                          </a>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+    <main class="container">
+        <h1>
+            CONTENIDO POR GÉNEROS 
+        </h1>
+
+        <section class="films">
+            <h2>Películas</h2>
+
+        <!-- peliculas de terror -->
+            <article class="container-all" id="terror-movie">
+                <h3>Terror</h3>
+                <div class="list">
+                 <ul class="content">
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pt3">
+                            <figure>
+                                <img src="../../assets/img/peliculas/terror/haunt.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">
+                                    HAUNT
+                                </h4>
+                                <p> 5.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pt2">
+                            <figure>
+                                <img src="../../assets/img/peliculas/terror/cabaña_siniestra.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">LA CABAÑA SINIESTRA</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pt1" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/terror/dontbreathe.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">DON´T BREATHE</h4>
+                                <p> 8.03.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pt4" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/terror/maligno.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">MALIGNO</h4>
+                                <p>10.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pt5">
+                            <figure>
+                                <img src="../../assets/img/peliculas/terror/thehowling.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">THE HOWLING</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pt6" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/terror/niño.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">EL NIÑO</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </article>
+
+
+            <!-- peliculas de comedia -->
+            <article class="container-all" id="comedy-movie">
+                <h3>Comedia</h3>
+                <div class="list">
+                 <ul class="content">
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pc3" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/comedia/a_todo_tren.jpg" alt="">
+                            </figure>   
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">A TODO TREN</h4>
+                                <p> 5.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pc4" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/comedia/bendita_locura.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">BENDITA LOCURA</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pc1" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/comedia/la_vida_padre.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">LA VIDA PADRE</h4>
+                                <p> 8.03.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pc2">
+                            <figure>
+                                <img src="../../assets/img/peliculas/comedia/mama_o_papa.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">MAMÁ O PAPÁ</h4>
+                                <p>10.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pc5">
+                            <figure>
+                                <img src="../../assets/img/peliculas/comedia/si_fuera_rico.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">SI FUERA RICO</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pc6" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/comedia/campeones.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">CAMPEONES</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </article>
+
+
+
+            <!-- películas clásicas -->
+            <article class="container-all" id="classic-movie">
+                <h3>Clásicos</h3>
+                <div class="list">
+                 <ul class="content">
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pcla2">
+                            <figure>
+                                <img src="../../assets/img/peliculas/clasicos/grease.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">GREASE</h4>
+                                <p> 5.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pcla3">
+                            <figure>
+                                <img src="../../assets/img/peliculas/clasicos/los_goonies.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">LOS GOONIES</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pcla5" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/clasicos/rebelde_sin_causa.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">REBELDE SIN CAUSA</h4>
+                                <p> 8.03.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pcla4" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/clasicos/the_exorcist.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">EL EXORCISTA</h4>
+                                <p>10.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pcla6" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/clasicos/charada.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">CHARADA</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pcla1" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/clasicos/tiburon.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">TIBURÓN</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </article>
+
+
+            <!-- películas románticas -->
+            <article class="container-all" id="romantic-movie">
+                <h3>Románticas</h3>
+                <div class="list">
+                 <ul class="content">
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pr2" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/romanticas/amor_de_mis_amores.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">AMOR DE MIS AMORES</h4>
+                                <p> 5.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pr1">
+                            <figure>
+                                <img src="../../assets/img/peliculas/romanticas/amor_en_su_punto.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">AMOR EN SU PUNTO</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pr3" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/romanticas/amor_menos_pensado.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">EL AMOR MENOS PENSADO</h4>
+                                <p> 8.03.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pr4" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/romanticas/amor_segunda_vista.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">AMOR A SEGUNDA VISTA</h4>
+                                <p>10.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pr5">
+                            <figure>
+                                <img src="../../assets/img/peliculas/romanticas/titanic.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">TITANIC</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a class="card-film" href="../../detail/detail-movie.html#pr6" >
+                            <figure>
+                                <img src="../../assets/img/peliculas/romanticas/en_ruta.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">EN RUTA</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </article>
+        </section>
+
+ 
+
+
+        <!-- series de aventuras -->
+        <section class="serie">
+            <h2>Series</h2>
+
+            <article class="container-all" id="adventure-serie">
+                <h3>Aventuras</h3>
+                <div class="list">
+                 <ul class="content">
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#sa3" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/aventuras/casa_del_dragon.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">LA CASA DEL DRAGÓN</h4>
+                                <p> 5.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#sa1" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/aventuras/materia_oscura.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">LA MATERIA OSCURA</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#sa4" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/aventuras/the_last_of_us.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">THE LAST OF US</h4>
+                                <p> 8.03.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#sa2" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/aventuras/willow.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">WILLOW</h4>
+                                <p>10.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </article>
+
+
+            <!-- series docuemntal -->
+            <article class="container-all" id="documental-serie">
+                <h3>Documental</h3>
+                <div class="list">
+                 <ul class="content">
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#sd3" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/documental/javier_fernandez.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">JAVIER FERNÁNDEZ</h4>
+                                <p> 5.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#sd4" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/documental/lola.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">LOLA</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#sd1" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/documental/nevenka.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">NEVENKA</h4>
+                                <p> 8.03.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#sd2" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/documental/the_future_of.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">THE FUTURE OF</h4>
+                                <p>10.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </article>
+
+
+            <!-- series de terror -->
+            <article class="container-all" id="terror-serie">
+                <h3>Terror</h3>
+                <div class="list">
+                 <ul class="content">
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#st2" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/terror-serie/amercan_horror_stories.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">AMERICAN HORROR STORY</h4>
+                                <p> 5.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#st1" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/terror-serie/dark.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">DARK</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#st3" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/terror-serie/exorcist.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">THE EXORCIST</h4>
+                                <p> 8.03.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#st4" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/terror-serie/the_terror.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">THE TERROR</h4>
+                                <p>10.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </article>
+
+
+
+            <!-- series de ciencia ficción -->
+            <article class="container-all" id="sciencie-ficction-serie">
+                <h3>Ciencia ficción</h3>
+                <div class="list">
+                 <ul class="content">
+                    <li>
+                        <a href="../../detail/detail-serie.html#scf1" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/ciencia_ficcion/altered_carbon.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">ALTERED CARBON</h4>
+                                <p> 5.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#scf3" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/ciencia_ficcion/fundation.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">FUNDATION</h4>
+                                <p> 17.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#scf2" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/ciencia_ficcion/stranger_things.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">STRANGER THINGS</h4>
+                                <p> 8.03.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="../../detail/detail-serie.html#scf4" class="card-film">
+                            <figure>
+                                <img src="../../assets/img/series/ciencia_ficcion/tribes_of_europe.jpg" alt="">
+                            </figure>
+                            <div class="data-card-film">
+                                <h4 class="title-card-film">TRIBES OF EUROPE</h4>
+                                <p>10.01.2023 </p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+            </article>
+        </section>
+
+
+
+
+        
+    </main>
+
+    <footer>
+        <section class="data-footer">
+            <p>ELOÍSA MORENO FLORES</p>
+            <article class="icon-footer">
+                <a href="https://www.linkedin.com/in/eloisamorenoflores/" target="blanket"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/el0isa" target="blanket"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+            </article>
+        </section>
+
+    </footer>
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

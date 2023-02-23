@@ -1,0 +1,103 @@
+@import '../../../assets/styles/variables.scss';
+
+.genres {
+    background-color: $black;
+
+    main {
+        grid-template-rows: 1fr 1fr;
+        gap: 0;
+        
+
+        h1{
+            padding: $xl 0 $xxl 0;
+            font-family: 'Oswald', sans-serif;
+            margin: 0;
+            color: $white;
+
+            @media (min-width:992px) {
+                padding: 100px 0 $xxl 44px;
+            }
+        }
+
+        .category {
+            
+            @media (min-width:992px) {
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
+
+            h3{
+                margin: 0;
+                padding-bottom: $m;
+                color: $grey-medium;
+            }
+
+            article{
+                display: flex;
+                flex-direction: column;
+                padding-bottom: $xxl;
+
+                @media (min-width:992px) {
+                    width: 43%;
+
+                }
+
+                .container-category {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    margin-bottom: $m;
+
+                    @media (min-width:992px) {
+                        padding: $xs 0 $m 0;
+                        margin: 0;
+    
+                    }
+    
+                    .content-category {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-decoration: none;
+                        color: $black;
+                        border: solid $primary 2px;
+                        width: 48%;
+                        border-radius: $s;
+
+                        //   animación  
+                        transform: scale(1);
+                        transition: transform .4s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.05);
+                            z-index: 2;
+                        }
+    
+                        figure {
+                            width: 100%;
+                            margin: 0;
+                            
+
+                            @media (min-width:992px) {
+                                width: 75%;
+                                margin: 0;
+            
+                            }
+    
+                            img {
+                                width: 100%;
+                                
+                            }
+                        }
+                        p{
+                            color: $white;
+                        }
+                    }
+    
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,103 @@
+.favorite {
+  background-color: #121212;
+}
+.favorite main {
+  padding-bottom: 80px;
+}
+.favorite main h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 3rem;
+  padding: 40px 0 24px 0;
+  color: #ffffff;
+}
+@media (min-width: 992px) {
+  .favorite main h1 {
+    padding: 40px 0 24px 0;
+  }
+}
+.favorite main .favorite-box {
+  width: 100%;
+  display: grid;
+  grid-template-rows: 54px 1fr;
+}
+.favorite main .favorite-box h3 {
+  margin: 0;
+  color: #ff0000;
+}
+@media (min-width: 992px) {
+  .favorite main .favorite-box h3 {
+    padding: 0 0 24px 0;
+  }
+}
+.favorite main article .content {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 48px;
+}
+@media (min-width: 992px) {
+  .favorite main article .content {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+}
+.favorite main article .content li {
+  display: flex;
+  justify-content: space-around;
+}
+.favorite main article .content li .card-film {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  transform: scale(1);
+  transition: transform 0.4s ease-in-out;
+}
+.favorite main article .content li .card-film:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+.favorite main article .content li .card-film figure {
+  height: 100%;
+  position: relative;
+}
+.favorite main article .content li .card-film figure i {
+  position: absolute;
+  z-index: 1;
+  left: 85%;
+  padding: 0 8px;
+  font-size: 2.5rem;
+  color: #ff0000;
+}
+@media (min-width: 992px) {
+  .favorite main article .content li .card-film figure i {
+    left: 80%;
+    font-size: 2rem;
+  }
+}
+.favorite main article .content li .card-film figure img {
+  width: 100%;
+}
+.favorite main article .content li .card-film .data-card-film .title-card-film {
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+}
+.favorite main article .content li .card-film h4 {
+  font-size: 1.5rem;
+  padding-bottom: 4px;
+}
+@media (min-width: 992px) {
+  .favorite main article .content li .card-film h4 {
+    font-size: 1.2rem;
+  }
+}
+.favorite main article .content li .card-film p {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  color: #c8c8c8;
+}/*# sourceMappingURL=style.css.map */
