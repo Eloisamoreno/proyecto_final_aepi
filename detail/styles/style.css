@@ -99,7 +99,7 @@
 .detail-movie main .container-movie .content-movie li .section-2-data-detail .buttoms-detail .button-primary {
   background-color: #ff0000;
   border: none;
-  color: #121212;
+  color: #ffffff;
   transform: scale(1);
   transition: transform 0.4s ease-in-out;
 }
@@ -110,7 +110,7 @@
 .detail-movie main .container-movie .content-movie li .section-2-data-detail .buttoms-detail .button-secundary {
   background-color: #121212;
   border: 1px solid #ff0000;
-  color: #ff0000;
+  color: #ffffff;
   transform: scale(1);
   transition: transform 0.4s ease-in-out;
 }
@@ -210,7 +210,7 @@
 .detail-serie main .container-serie .content-serie li .section-2-data-detail .buttoms-detail .button-primary {
   background-color: #ff0000;
   border: none;
-  color: #121212;
+  color: #ffffff;
   transform: scale(1);
   transition: transform 0.4s ease-in-out;
 }
@@ -221,7 +221,7 @@
 .detail-serie main .container-serie .content-serie li .section-2-data-detail .buttoms-detail .button-secundary {
   background-color: #121212;
   border: 1px solid #ff0000;
-  color: #ff0000;
+  color: #ffffff;
   transform: scale(1);
   transition: transform 0.4s ease-in-out;
 }
