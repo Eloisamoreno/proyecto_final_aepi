@@ -108,7 +108,7 @@
                             .button-primary {
                                 background-color: $primary;
                                 border: none;
-                                color: $black;
+                                color: $white;
                                 //   animación  
                                 transform: scale(1);
                                 transition: transform .4s ease-in-out;
@@ -123,7 +123,7 @@
                             .button-secundary {
                                 background-color: $black;
                                 border: 1px solid $primary;
-                                color: $primary;
+                                color: $white;
 
                                 //   animación  
                                 transform: scale(1);
@@ -244,7 +244,7 @@
                             .button-primary {
                                 background-color: $primary;
                                 border: none;
-                                color: $black;
+                                color: $white;
 
                                 //   animación  
                                 transform: scale(1);
@@ -260,7 +260,7 @@
                             .button-secundary {
                                 background-color: $black;
                                 border: 1px solid $primary;
-                                color: $primary;
+                                color: $white;
 
                                 //   animación  
                                 transform: scale(1);
